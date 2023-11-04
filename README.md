@@ -41,7 +41,10 @@ Add new tasks to your todo list:
 Remove a task from your list:
 - Click the delete button (usually a trash can icon) next to the task.
 
-
+![Screenshot (36)](https://github.com/samerr07/Todo-App-with-Authentication/assets/112320710/17f9c703-f866-45b1-af6f-c9e3106312ac)
+![Screenshot (20)](https://github.com/samerr07/Todo-App-with-Authentication/assets/112320710/d119c038-4c44-44c4-ba05-7a00eee1b1f4)
+![Screenshot (21)](https://github.com/samerr07/Todo-App-with-Authentication/assets/112320710/cb38e70b-c468-4c43-9603-bc3a1be75a90)
+![Screenshot (22)](https://github.com/samerr07/Todo-App-with-Authentication/assets/112320710/cafcad27-7d0b-4311-9d2d-1d2a31ee949a)
 
 # Getting Started with Create React App
 
@@ -59,7 +62,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `npm test`![Uploading Screenshot (36).png…]()
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
