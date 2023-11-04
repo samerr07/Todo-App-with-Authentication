@@ -1,0 +1,202 @@
+*{
+    font-family: cursive;
+  }
+  .container{
+    background: linear-gradient(to bottom, #91eae4, #86a8e7, #7f7fd5);
+    min-height: 100vh;
+    padding-top: 40px;
+    box-sizing:border-box
+  }
+  .todo-app {
+    max-width: 400px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    background-color: white;
+  }
+  
+  .todo-app h1 {
+    text-align: center;
+  }
+  
+  .add-todo {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .add-todo input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .add-todo button {
+    margin-left: 10px;
+  }
+  
+  .todo-list {
+    padding: 10px;
+    color:orangered;
+    font-weight: bold;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  
+  .todo-item:hover {
+    background-color: #ccc;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+  }
+  
+  .todo-item .todo-text {
+    flex-grow: 1;
+  }
+  
+  .todo-item .todo-actions button {
+    margin-left: 5px;
+  }
+  
+  .todo-stats {
+    text-align: center;
+    margin-top: 10px;
+    color: blueviolet;
+    font-weight: bold;
+  }
+  
+  .add{
+    border: none;
+    outline: none;
+    height: 2.3em;
+    border-radius: 12px;
+    color: green;
+    background-color: rgb(212, 201, 201);
+  }
+  
+  .addBtn {
+    background-color: #3c87ff;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 4em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .addBtn:hover{
+    cursor: pointer;
+    background-color: #1b6beb;
+  }
+  
+  .clearBtn{
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    width: 6em;
+    margin-left: 3.7em;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+ 
+  .serch {
+    width: 75%;
+    border: none;
+    outline: none;
+    height: 1em;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(212, 201, 201);
+  }
+  
+  .serBtn{
+    background-color: yellow;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 4em;
+    color: #3c87ff;
+    
+    height: 2.5em;
+    margin-left: 1em;
+  }
+  
+  .delete{
+    color: red;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  } 
+  
+  .toggle{
+    color: green;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  }
+  .up{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  }
+  
+  .edit{
+    color: green;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  }
+  
+  .update{
+    color: red;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  }
+  .editAdd {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 11em;
+    color: black;
+    font-size: 1em;
+  }
+  
+  
+  svg:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.38);
+  }
+  
+  .filter-container > button{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(156, 13, 161, 0.914);
+    
+  }
+  
+  .filter-container > button:hover{
+    cursor: pointer;
+    background-color: rgb(190, 174, 174);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }

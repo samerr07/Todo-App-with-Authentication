@@ -1,3 +1,46 @@
+# Todo App with Authentication
+
+This is a simple Todo application built with React.js that includes user authentication and uses local storage to store user data. Users can create, update, delete, and mark tasks as completed.
+
+## Features
+
+- **User Authentication:** Users can sign up, log in, and log out.
+- **Todo Operations:** Users can create, update, delete, and mark tasks as completed.
+- **Local Storage:** User data and tasks are stored in the local storage for persistence.
+
+## Technologies Used
+
+- **React.js:** A JavaScript library for building user interfaces.
+- **React Router:** Declarative routing for React.js applications.
+- **Local Storage:** For storing user data and tasks locally.
+- **CSS:** Styling the components and layout.
+
+## Usage
+
+### 1. Sign Up
+- Create a new account by providing your name and password.
+
+### 2. Log In
+ - Log into your account with your registered name and password.
+
+### 3. Add Task
+Add new tasks to your todo list:
+- Enter the task description in the input field.
+- Click "Add Task" to add the task to your list.
+
+### 4. Update Task
+- Click on a task to edit its description.
+
+### 5. Complete Task
+- Mark a task as completed:
+
+
+### 6. Delete Task
+Remove a task from your list:
+- Click the delete button (usually a trash can icon) next to the task.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
